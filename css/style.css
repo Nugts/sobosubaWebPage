@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "souba display";
+  src: url("souba_display.ttf");
+}
+
+@font-face {
+  font-family: "souba text";
+  src: url("souba_text.ttf");
+}
+
+body {
+  background-color: #0b0b0d;
+  color: #ececf0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+h2, h3, h4 {
+  font-family: "souba text", sans-serif;
+}
+
+h5, h6 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #4ff0ff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #b9ec1e;
+}
+
+.hero {
+  padding: 30px;
+}
+
+.hero-logo {
+  width: 400px;
+}
+
+.tagline {
+  font-family: "souba display", sans-serif;
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.platforms {
+  color: #9a9aa8;
+  font-size: 14px;
+}
+
+.cta {
+  margin: 20px 0;
+}
+
+.btn {
+  font-family: "souba display", sans-serif;
+  background-color: #141418;
+  color: #ececf0;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #ececf0;
+  color: #000000;
+}
+
+.btn-primary {
+  background-color: #b9ec1e;
+  color: #000000;
+}
+
+.btn-primary:hover {
+  background-color: #4ff0ff;
+  color: #000000;
+}
+
+.section {
+  width: 960px;
+  margin: 20px 0;
+}
+
+.blurb {
+  font-size: 18px;
+  color: #d3d3dc;
+}
+
+.notice {
+  font-size: 16px;
+  color: #b6b6c2;
+}
+
+.trailer {
+  width: 700px;
+  background-color: #000000;
+}
+
+.shots {
+  width: 100%;
+}
+
+.shots a {
+  float: left;
+  width: 300px;
+  margin: 10px;
+}
+
+.shots img {
+  width: 100%;
+}
+
+.footer {
+  width: 960px;
+  margin: 20px 0;
+  color: #9a9aa8;
+  font-size: 15px;
+  clear: both;
+}
