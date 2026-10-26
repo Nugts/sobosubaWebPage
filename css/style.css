@@ -1,11 +1,11 @@
 @font-face {
   font-family: "souba display";
-  src: url("souba_display.ttf");
+  src: url("../souba_display.ttf");
 }
 
 @font-face {
   font-family: "souba text";
-  src: url("souba_text.ttf");
+  src: url("../souba_text.ttf");
 }
 
 body {
@@ -17,13 +17,7 @@ body {
   margin: 0;
 }
 
-h2, h3, h4 {
-  font-family: "souba text", sans-serif;
-}
-
-h5, h6 {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-}
+/* Headings now use system-ui by default along with everything else */
 
 img, video {
   max-width: 100%;
@@ -51,6 +45,11 @@ a:hover {
   font-family: "souba display", sans-serif;
   font-size: 24px;
   margin: 15px 0;
+}
+
+/* Opt-in class for souba text when you want to use it */
+.souba-text {
+  font-family: "souba text", sans-serif;
 }
 
 .platforms {
