@@ -17,8 +17,6 @@ body {
   margin: 0;
 }
 
-/* Headings now use system-ui by default along with everything else */
-
 img, video {
   max-width: 100%;
   height: auto;
@@ -30,7 +28,7 @@ a {
 }
 
 a:hover {
-  color: #b9ec1e;
+  color: #b9ec1d !important;
 }
 
 .hero {
@@ -47,7 +45,6 @@ a:hover {
   margin: 15px 0;
 }
 
-/* Opt-in class for souba text when you want to use it */
 .souba-text {
   font-family: "souba text", sans-serif;
 }
